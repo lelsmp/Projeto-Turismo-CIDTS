@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+
+    background-color: #fff;
+}
+
+/* navbar styling */
+.navbar{
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 990;
+    padding: 20px 0;
+    
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.navbar .logo a{
+    color: #1C2826;
+    font-size: 35px;
+    /*font-weight: 200;*/
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-left: 65px;
+}
+
+.navbar .logo a span{
+    color:#D64550;
+    transition: all 0.3s ease;
+}
+
+.line{
+
+    position: absolute;
+    width: 1500px;
+    height: 3px;
+    /*left: 0px;*/
+    right: 100px;
+    top: 70px;
+
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #1C2826;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    /*margin-left: 20px;*/
+    margin-right: 35px;
+    transition: color 0.3s ease;
+
+}
+.navbar .menu li a:hover{
+    color:#D64550;
+}
+
+.home{
+    display: flex;
+    background: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 88vh;
+    /*color: #fff;*/
+    min-height: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.photo{
+    position: absolute;
+    left: 690px;
+    top: 70px;
+    height: 585px;
+    
+    object-fit: cover;
+    /*border-radius: 250px;*/
+    
+
+}
+
+.button a{
+    text-decoration: none;
+    color: #1C2826;
+    opacity: 80%;
+    transition: all 0.3s ease-in;
+}
+
+.button a:hover{
+    cursor: pointer;
+    color: #D64550;
+}
+
+.iconglass{
+    position: absolute;
+    left: 380px;
+    top: 310px;
+
+}
+.text-1{
+    position: absolute;
+    /*width: 129px;
+    height: 54px;*/
+    left: 76px;
+    top: 205px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    /*line-height: 54px;*/
+/* identical to box height */
+
+
+    color: #D64550;
+}
+.text-2{
+    position: absolute;
+    /*width: 322px;
+    height: 72px;*/
+    left: 76px;
+    top: 240px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    /*line-height: 96px;*/
+
+    color: #1C2826;
+}
+.search{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 76px;
+    top: 300px;
+
+    border: 2px solid rgba(214, 69, 80, 0.5);
+    border-radius: 130px;
+}
+.type{
+    position: absolute;
+    /*width: 127px;
+    height: 36px;*/
+    left: 94px;
+    top: 316px;
+    opacity: 80%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    /*line-height: 36px;*/
+/* identical to box height */
+
+
+    color: #1C2826;
+}
+.city1{
+    position: absolute;
+    left: 90px;
+    top: 360px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration-color: rgba(28, 40, 38, 0.79);
+
+    border: 2px solid rgba(28, 40, 38, 0.47);
+    padding: 12px;
+    border-radius: 130px;
+
+}
+.city2{
+    position: absolute;
+    left: 205px;
+    top: 360px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(28, 40, 38, 0.79);
+    /*position: absolute;
+height: 32px;
+left: 208px;
+top: 611px;
+width: 113px;*/
+    border: 2px solid rgba(28, 40, 38, 0.47);
+    padding: 12px;
+    border-radius: 130px;
+}
+
+.city3{
+    position: absolute;
+    left: 305px;
+    top: 360px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(28, 40, 38, 0.79);
+    border: 2px solid rgba(28, 40, 38, 0.47);
+    padding: 12px;
+    border-radius: 130px;
+
+}
+
+.city4{
+    position: absolute;
+    left: 150px;
+    top: 405px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(28, 40, 38, 0.79);
+    border: 2px solid rgba(28, 40, 38, 0.47);
+    padding: 12px;
+    border-radius: 130px;
+
+}
+
+.city5{
+    position: absolute;
+    left: 255px;
+    top: 405px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(28, 40, 38, 0.79);
+    border: 2px solid rgba(28, 40, 38, 0.47);
+    padding: 12px;
+    border-radius: 130px;
+
+}
